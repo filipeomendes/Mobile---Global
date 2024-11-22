@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:background="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/nomeCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome da Empresa"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/editarButton"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/lapis"
+                android:contentDescription="Editar" />
+
+            <ImageView
+                android:id="@+id/excluirButton"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/lixo"
+                android:contentDescription="Excluir" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/cnpjCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="CNPJ: 00.000.000/0000-00"
+            android:textSize="16sp"
+            android:textColor="#011c05" />
+
+        <TextView
+            android:id="@+id/emailCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Email: exemplo@email.com"
+            android:textSize="16sp"
+            android:textColor="#011c05" />
+
+        <TextView
+            android:id="@+id/telefoneCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Telefone: (11) 99999-9999"
+            android:textSize="16sp"
+            android:textColor="#011c05" />
+
+        <TextView
+            android:id="@+id/enderecoCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Endereço: Rua Exemplo, 123"
+            android:textSize="16sp"
+            android:textColor="#011c05" />
+
+        <TextView
+            android:id="@+id/cidadeCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Cidade: Salvador"
+            android:textSize="16sp"
+            android:textColor="#011c05" />
+
+        <TextView
+            android:id="@+id/estadoCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Estado: Bahia"
+            android:textSize="16sp"
+            android:textColor="#011c05" />
+
+        <TextView
+            android:id="@+id/segmentoCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Segmento: Industrial"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

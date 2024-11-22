@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "565374791870",
+    "firebase_url": "https://globalsolution-458b6-default-rtdb.firebaseio.com",
+    "project_id": "globalsolution-458b6",
+    "storage_bucket": "globalsolution-458b6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565374791870:android:80c32c0bff818638bbeeef",
+        "android_client_info": {
+          "package_name": "com.example.globalsolution"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPMEJxjvAf-D3DyUlV8PnMa7IuuY-7uCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
